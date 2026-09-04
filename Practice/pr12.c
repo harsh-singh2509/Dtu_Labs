@@ -6,15 +6,15 @@ int main()
     scanf("%c", &ch);
     if(ch >= 'A' && ch <= 'Z')
     {
-        printf("The letter is upper case.\n");
+        printf("The letter is upper case.");
     }
     else if(ch >= 'a' && ch <= 'z')
     {
-        printf("The letter is lower case.\n");
+        printf("The letter is lower case.");
     }
     else
     {
-        printf("Its not a letter.\n");
+        printf("Its not a letter.");
     }
     return 0;
 }
